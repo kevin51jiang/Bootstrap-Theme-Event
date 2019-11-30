@@ -817,9 +817,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 #schedule .sub-heading {
   text-align: center;
   font-size: 18px;
-  font-style: italic;
+  font-style: bold;
   margin: 0 auto 30px auto;
 }
+
 
 #schedule .tab-pane {
   transition: ease-in-out .2s;
@@ -841,7 +842,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: inline-block;
 }
 
-#schedule .schedule-item .speaker {
+#schedule .schedule-item .logo {
   width: 60px;
   height: 60px;
   overflow: hidden;
@@ -850,7 +851,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 0 10px 10px 0;
 }
 
-#schedule .schedule-item .speaker img {
+#schedule .schedule-item .logo img {
   height: 100%;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
