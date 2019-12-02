@@ -1050,6 +1050,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   z-index: 1;
 }
 
+
 /*--------------------------------------------------------------
 # Sponsors Section
 --------------------------------------------------------------*/
@@ -1062,7 +1063,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   
   align-items: center;
   border-top: 1px solid #e0e5fa;
-  border-left: 1px solid #e0e5fa;
+  /* border-left: 1px solid #e0e5fa; */
    margin-bottom: 30px;
   
 }
@@ -1120,11 +1121,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   -ms-flex-align: center;
   align-items: center;
   margin: 0 auto;
-  border-right: 1px solid #e0e5fa;
-  border-bottom: 1px solid #e0e5fa;
+  /* border-right: 1px solid #e0e5fa;
+  border-bottom: 1px solid #e0e5fa; */
   overflow: visible;
-  background: rgba(255, 255, 255, 0.5);
-  max-height: 10%;
+  /* background: rgba(255, 255, 255, 0.5); */
 }
 
 /*--------------------------------------------------------------
@@ -1144,6 +1144,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-bottom: 1px solid #ddd;
 }
 
+
 #faq #faq-list a {
   padding: 18px 0;
   display: block;
@@ -1153,6 +1154,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   line-height: 24px;
   font-weight: 600;
   padding-right: 20px;
+}
+
+
+#faq #faq-list #emailto{
+  display: inline;
 }
 
 #faq #faq-list i {
@@ -1177,6 +1183,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 #faq #faq-list a.collapsed i::before {
   content: "\f055" !important;
 }
+
+
+
 
 /*--------------------------------------------------------------
 # Subscribe Section
